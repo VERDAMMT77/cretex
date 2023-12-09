@@ -1,0 +1,33 @@
+.say {
+  padding: 100px 0;
+  background: var(--gray-200, #F4F5F6);
+  &__subtitle {
+    color: var(--gray-900, #1E212C);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+  }
+  &__title {
+    color: var(--gray-900, #1E212C);
+    text-align: center;
+    font-size: 46px;
+    font-weight: 900;
+    margin: 8px 0 128px;
+  }
+  &__card {
+    padding: 64px 105px 64px 163px;
+    text-align: center;
+    width: 100%;
+    border-radius: 4px;
+    background: var(--white, #FFF);
+    box-shadow: 0 4px 4px -4px rgba(30, 33, 44, 0.03), 0px 12px 10px -6px rgba(154, 156, 165, 0.04), 0px 30px 24px -10px rgba(154, 156, 165, 0.05), 0px 80px 80px -20px rgba(154, 156, 165, 0.08);
+    height: 100%;
+
+  }
+}
+.swiper {
+  width: 80%;
+  height: 344px;
+}

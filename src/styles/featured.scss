@@ -1,0 +1,100 @@
+.featured {
+  padding-bottom: 180px;
+  padding-top: 180px;
+  &__top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  &__title {
+    color: var(--gray-900, #1E212C);
+    font-size: 46px;
+    font-weight: 900;
+    line-height: 130%;
+    display: flex;
+    flex-direction: column;
+    span {
+      color: var(--gray-900, #1E212C);
+      font-size: 16px;
+      font-weight: 700;
+      line-height: 150%;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+    }
+  }
+  &__btn {
+    font-weight: 700;
+    padding: 10px 40px;
+    border-radius: 4px;
+    border: 1px solid var(--btn-gradient, #FF3F3A);
+    cursor: pointer;
+    background: var(--btn-gradient, linear-gradient(56deg, #FF3F3A 0%, #F75E05 100%));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  &__row {
+    display: flex;
+    flex-wrap:wrap ;
+    gap: 30px;
+    padding-top: 60px;
+  }
+  &__card {
+    display: flex;
+    align-items: center;
+    border-radius: 4px;
+    border: 1px solid var(--gray-300, #E5E8ED);
+    background: var(--white, #FFF);
+    box-shadow: 0 4px 4px -4px rgba(30, 33, 44, 0.03), 0px 12px 10px -6px rgba(154, 156, 165, 0.04), 0px 30px 24px -10px rgba(154, 156, 165, 0.05), 0px 80px 80px -20px rgba(154, 156, 165, 0.08);
+    width: 565px;
+    height: 214px;
+    &-info {
+      padding: 0 25px;
+    }
+    &-text {
+      padding: 1px 8px;
+      align-items: center;
+      gap: 10px;
+      display: inline-flex;
+      color: var(--white, #FFF);
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 150%;
+      border-radius: 4px;
+        &.green {
+          background: var(--success, #03CEA4);
+        }
+        &.blue {
+          background: var(--info, #5A87FC);
+        }
+        &.orange {
+          background: var(--warning, #F89828);
+        }
+        &.pink{
+            background: #F52F6E;
+        }
+    }
+    &-title {
+      color: var(--gray-900, #1E212C);
+      font-size: 20px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 150%;
+      padding-top: 20px;
+     padding-bottom: 20px;
+    }
+    &-price {
+      color: var(--gray-700, #787A80);
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 150%;
+    }
+  }
+  &__dollar {
+    color: var(--danger, #FF4242);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%;
+  }
+}

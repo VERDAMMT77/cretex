@@ -1,3 +1,33 @@
+const swiper = new Swiper(".team__swiper", {
+    slidesPerView: 4,
+    spaceBetween: 30,
+    navigation: {
+        nextEl: ".team__next",
+        prevEl: "team__prev",
+    },
+    autoplay:  {
+        delay: 2000
+    },
+    loop: true
+});
+
+const swiper2 = new Swiper(".say__swiper", {
+    loop: true,
+
+    pagination: {
+        el: '.swiper-pagination',
+    },
+
+    navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+    },
+
+    scrollbar: {
+        el: '.swiper-scrollbar',
+    },
+});
+
 $(function() {
 
     $('ul.benefits__link').on('click', 'li:not(.active)', function() {
@@ -7,33 +37,11 @@ $(function() {
     });
 
 });
+let burger = document.querySelector('.header__burger')
+let burgerMenu = document.querySelector('.header__burgerMenu')
 
-var swiper = new Swiper(".team__swiper", {
-    slidesPerView: 4,
-    spaceBetween: 30,
-    navigation: {
-        nextEl: ".team__next",
-        prevEl: "team__prev",
-    },
-   autoplay:  {
-        delay: 2000
-   },
-    loop: true
-});
 
-// const swiper = new Swiper('.swiper', {
-//     loop: true,
-//
-//     pagination: {
-//         el: '.swiper-pagination',
-//     },
-//
-//     navigation: {
-//         nextEl: '.swiper-button-next',
-//         prevEl: '.swiper-button-prev',
-//     },
-//
-//     scrollbar: {
-//         el: '.swiper-scrollbar',
-//     },
-// });
+burger.addEventListener('click',() => {
+    burger.classList.toggle('active')
+    burgerMenu.classList.toggle('active')
+})

@@ -39,4 +39,110 @@
     border: none;
     padding-left: 36px;
   }
+  &__burgerMenu {
+    display: none;
+    &-links {
+      display: flex;
+      column-gap: 30px;
+    }
+    &-btns {
+      display: flex;
+      column-gap: 30px;
+      align-items: center;
+    }
+  }
+  &__burger {
+    width: 50px;
+    height: 45px;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    padding: 0 5px;
+
+    span {
+      width: 100%;
+      height: 3px;
+      background: #1E212C;
+      position: relative;
+      border-radius: 3px;
+      &::before {
+        content: "";
+        top: -10px;
+        position: absolute;
+        width: 100%;
+        height: 3px;
+        background: #1E212C;
+        border-radius: 3px;
+      }
+      &::after {
+        content: "";
+        bottom: -10px;
+        position: absolute;
+        width: 100%;
+        height: 3px;
+        background: #1E212C;
+        border-radius: 3px;
+      }
+    }
+    &.active {
+      span {
+        background: transparent;
+        &::before {
+          top: 0;
+          transform: rotate(45deg);
+        }
+        &::after {
+          top: 0;
+          transform: rotate(-45deg);
+        }
+      }
+    }
+  }
+}
+@media (max-width: 992px) {
+  .header__links, .header__right {
+    display: none;
+  }
+  .header__burgerMenu {
+    display: flex;
+    column-gap: 40px;
+    align-items: center;
+    position: absolute;
+    justify-content: center;
+    top: -100%;
+    left: 0;
+    transform: translateY(-100%);
+    width: 100%;
+    background:white ;
+    padding:20px 0;
+    border-radius: 0 0 20px 20px;
+    &.active {
+      top: 0;
+      transform: translateY(0);
+    }
+  }
+  .header__burger {
+    display: flex;
+  }
+}
+@media (max-width: 768px) {
+  .header__burgerMenu {
+    flex-direction: column;
+    row-gap: 20px;
+  }
+}
+@media (max-width: 500px) {
+  .header__burgerMenu-links {
+    a {
+      font-size: 15px;
+    }
+  }
+}
+@media (max-width: 425px) {
+  .header__burgerMenu-links, .header__burgerMenu-btns {
+    flex-direction: column;
+    row-gap: 20px;
+    text-align: center;
+  }
 }

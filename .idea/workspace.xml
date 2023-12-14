@@ -2,7 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0602a1bd-5bee-4fc7-bf47-d1a9ba16c8d4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/assets/Right.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/footer-logo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/post-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/say-left.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/say.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/footer.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/footer.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/post.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/prepros.config" beforeDir="false" afterPath="$PROJECT_DIR$/prepros.config" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/header.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/header.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/header.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/say.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/say.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/style.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/team.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/team.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/team.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/team.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,12 +56,12 @@
     <property name="list.type.of.created.stylesheet" value="SCSS" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\User\Desktop\createX\src\assets" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\User\Desktop\createX\src\assets" />
       <recent name="C:\Users\User\Desktop\createX\src\styles" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\User\Desktop\createX\src\assets" />
     </key>
   </component>
   <component name="SvnConfiguration">
@@ -77,7 +95,9 @@
       <workItem from="1702049033421" duration="461000" />
       <workItem from="1702049520875" duration="9451000" />
       <workItem from="1702125269406" duration="25000" />
-      <workItem from="1702125377355" duration="1368000" />
+      <workItem from="1702125377355" duration="2050000" />
+      <workItem from="1702129660557" duration="799000" />
+      <workItem from="1702301353018" duration="13783000" />
     </task>
     <servers />
   </component>

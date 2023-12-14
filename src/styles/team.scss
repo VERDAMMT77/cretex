@@ -1,5 +1,5 @@
 .team {
-  padding: 196px 0 ;
+  padding: 180px 0 ;
   background: #F4F5F6;
   &__card {
     width: 100%;
@@ -72,10 +72,10 @@
     }
   }
   &__btns {
-    display: flex;
-    column-gap: 12px;
-    align-items: center;
-  }
+      display: flex;
+      column-gap: 12px;
+      align-items: center;
+    }
   &__next, &__prev {
     svg path {
       fill: #424551;

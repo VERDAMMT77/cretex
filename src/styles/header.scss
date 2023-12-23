@@ -1,6 +1,9 @@
 .header {
   background: #ffdad5;
-  padding-top: 20px;
+  padding: 20px 0;
+  position: fixed;
+  width: 100%;
+  z-index: 50;
   &__nav {
     display: flex;
     align-items: center;
@@ -26,6 +29,7 @@
     display: flex;
     align-items: center;
     column-gap: 26px;
+
   }
   &__login-svg{
     position: absolute;

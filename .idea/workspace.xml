@@ -2,25 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0602a1bd-5bee-4fc7-bf47-d1a9ba16c8d4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/assets/Right.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/footer-logo.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/post-1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/say-left.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/say.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/styles/footer.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/styles/footer.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/styles/post.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logoX.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/post-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/post-3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/search.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/courses.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/our.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/prepros.config" beforeDir="false" afterPath="$PROJECT_DIR$/prepros.config" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/benefits.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/benefits.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/enjoy.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/enjoy.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/featured.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/featured.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/footer.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/footer.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/styles/header.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/header.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/styles/header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/header.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/say.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/say.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/post.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/post.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/question.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/question.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/styles/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/styles/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/style.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/team.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/team.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/team.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/team.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,9 +30,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="Sass File" />
         <option value="JavaScript File" />
+        <option value="HTML File" />
         <option value="SCSS File" />
       </list>
     </option>
@@ -62,6 +62,7 @@
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\User\Desktop\createX\src\assets" />
+      <recent name="C:\Users\User\Desktop\createX" />
     </key>
   </component>
   <component name="SvnConfiguration">
@@ -97,7 +98,30 @@
       <workItem from="1702125269406" duration="25000" />
       <workItem from="1702125377355" duration="2050000" />
       <workItem from="1702129660557" duration="799000" />
-      <workItem from="1702301353018" duration="13783000" />
+      <workItem from="1702301353018" duration="32160000" />
+      <workItem from="1702866245701" duration="137000" />
+      <workItem from="1702866553543" duration="36000" />
+      <workItem from="1702866909435" duration="14000" />
+      <workItem from="1702866931166" duration="82000" />
+      <workItem from="1702867032129" duration="9000" />
+      <workItem from="1702867059407" duration="10000" />
+      <workItem from="1702867216541" duration="30000" />
+      <workItem from="1702867795086" duration="35000" />
+      <workItem from="1702867894043" duration="16000" />
+      <workItem from="1702867978163" duration="52000" />
+      <workItem from="1702868266678" duration="14000" />
+      <workItem from="1702868445808" duration="38000" />
+      <workItem from="1702869892574" duration="14000" />
+      <workItem from="1702870428547" duration="18000" />
+      <workItem from="1702871435073" duration="15000" />
+      <workItem from="1702988576391" duration="2205000" />
+      <workItem from="1703003081874" duration="105000" />
+      <workItem from="1703003293944" duration="884000" />
+      <workItem from="1703097300116" duration="27000" />
+      <workItem from="1703097895966" duration="3755000" />
+      <workItem from="1703188772442" duration="163000" />
+      <workItem from="1703189036322" duration="17000" />
+      <workItem from="1703333319226" duration="1603000" />
     </task>
     <servers />
   </component>
@@ -105,13 +129,21 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="137" y="18" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1702753079850">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="137" y="18" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1702753079850" />
     <state x="413" y="110" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1701350423753">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="413" y="110" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1701350423753" />
-    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1701779555857">
+    <state x="339" y="162" key="run.anything.popup" timestamp="1703100004440">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1701779555857" />
+    <state x="339" y="162" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1703100004440" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1703333607809">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1703333607809" />
   </component>
 </project>

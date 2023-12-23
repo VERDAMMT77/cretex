@@ -58,6 +58,11 @@
      display: flex;
    }
   }
+  &__right {
+    width: 100%;
+    img {
+    }
+  }
   &__left {
     &-title {
       color: var(--gray-900, #1E212C);
